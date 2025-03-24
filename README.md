@@ -30,8 +30,11 @@ API_SECRET_KEY 	: "wqr0i2O******************************ANtO1TA="
 
 ### Installation
 
-Add the Auropay SDK to your project by downloading it from the github https://github.com/Auropay/Auropay-PHP-SDK and include it in your project
+Add the Auropay SDK to your project by using following command
 
+```php
+composer require auropay/auropay
+```
 ---
 
 ## Usage Examples
@@ -211,7 +214,7 @@ try
 
 ## License
 
-Distributed under the Unlicense License. See `LICENSE` for more information.
+Distributed under the Unlicense License. See [LICENSE](https://github.com/Auropay/Auropay-PHP-SDK/blob/main/LICENSE) for more information.
 
 <br />
 <br />
