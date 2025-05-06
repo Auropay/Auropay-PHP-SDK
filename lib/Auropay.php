@@ -11,6 +11,8 @@
 
 namespace Auropay;
 
+require_once __DIR__ . '/../vendor/autoload.php';
+
 use Auropay\Config\Constants;
 use Auropay\Utils\ErrorCodeMapper;
 use GuzzleHttp\Client;

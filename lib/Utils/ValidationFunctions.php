@@ -19,7 +19,7 @@ class ValidationFunctions {
 	 * @throws \InvalidArgumentException Will throw an exception if the value is empty.
 	 */
 	public static function emptyCheck( $value, $errorMessage, $serverErrorCode ) {
-		if ( is_null( $value ) || empty( $value ) ) {
+		if ( is_null( $value ) || empty( trim($value) ) ) {
 			throw new \InvalidArgumentException( $errorMessage, $serverErrorCode );
 		}
 	}

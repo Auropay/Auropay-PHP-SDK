@@ -1,6 +1,6 @@
 {
     "name": "auropay/auropay",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "Auropay's Payment Gateway APIs provide developers with a streamlined pathway to integrate advanced payment processing capabilities into their applications, platforms and websites.",
     "keywords": [
         "php",
